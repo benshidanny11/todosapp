@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Item = ({
-   handleChange, editTodo,todo
+  changeHandler, editTodo,todo
 }) => {
   const [editState, setEditState] = useState(true);
 
@@ -26,7 +26,7 @@ const Item = ({
             <input
               type="checkbox"
               name="mark"
-              onChange={() => handleChange(todo)}
+              onChange={() => changeHandler(todo)}
               checked={todo.completed}
             />
           </div>
