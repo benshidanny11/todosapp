@@ -1,62 +1,54 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
-> Todos app.
+#Project: Math Magician
 
 
-## Built With
-
+## Built with
 - React js
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Setup
 
-### Setup
+- Clone this repository. 
+- Run `cd todos-app`
+- Run `npm install`
+- Run `npm start` 
 
-### Install
+## Run Tests
 
-### Usage
+```
+npx eslint .
+```
+```
+npx stylelint "**/*.{css,scss}"
+```
 
-### Run tests
+## Authors:
 
-### Deployment
+￼ **Daniel URIMUBENSHI**
 
-
-
-## Authors
-
-👤 **Daniel Urimubenshi**
-
-- GitHub: [Githubhandle](https://github.com/benshidanny11/)
-- Twitter: [Twitterhandle](https://twitter.com/DBenshi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-urimubenshi-077162185/)
+[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></code>](https://github.com/benshidanny11)
+[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"></code>](https://twitter.com/DBenshi)
+[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"></code>](https://www.linkedin.com/in/daniel-urimubenshi-077162185/)
+<a href="mailto:benshidanny11@gmail.com?subject=Hello Danny!"><img height="26" src="https://cdn.worldvectorlogo.com/logos/official-gmail-icon-2020-.svg"></a>
 
 
-## 🤝 Contributing
+##  Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/benshidanny11/todos-app/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a 👍 if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.

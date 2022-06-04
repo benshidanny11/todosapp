@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/interactive-supports-focus */
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 
-const Item = ({
-  changeHandler, editTodo,todo
+const TodoItem = ({
+  todo, todos, handleChange, editTodo, deleteTodo,
 }) => {
   const [editState, setEditState] = useState(true);
 
@@ -11,6 +13,12 @@ const Item = ({
   };
 
   const setClassName = (todo) => `input-field ${todo.completed && 'completed'}`;
+
+  const handleOnKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+    }
+  };
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
@@ -26,7 +34,7 @@ const Item = ({
             <input
               type="checkbox"
               name="mark"
-              onChange={() => changeHandler(todo)}
+              onChange={() => handleChange(todo)}
               checked={todo.completed}
             />
           </div>
@@ -41,9 +49,19 @@ const Item = ({
             readOnly={editState}
           />
         </div>
+        <div>
+          <i
+            role="button"
+            aria-label="c"
+            className="fas fa-trash"
+            onClick={() => deleteTodo(todo, todos)}
+            onKeyDown={() => handleOnKeyDown}
+          />
+          {' '}
+        </div>
       </form>
     </div>
   );
 };
 
-export default Item;
+export default TodoItem;
