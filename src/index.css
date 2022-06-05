@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.fa-trash {
+  color: red;
+}
+
+.nav-background {
+  background: rgba(84, 216, 209, 0.753);
+}
+
+.navBar {
+  width: 400px;
+  height: 100vh;
+  align-items: center;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.navBar button {
+  background: transparent;
+  border: none;
+}
+
+.navBar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.todo-header {
+  color: rgb(218, 214, 214);
+  font-size: 100px;
+}
+
+.todo-container {
+  padding-left: 100px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.add-btn {
+  background: inherit;
+  border: none;
+  font-size: 20px;
+  color: green;
+}
+
+.todos {
+  background: white;
+}
+
+.list-todos-container {
+  width: 50%;
+}
+
+.list-todos {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.list-input-group {
+  align-items: center;
+  width: 100%;
+}
+
+.add-input-form {
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 4px 0;
+  width: 50%;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.add-input-field,
+.input-field {
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+}
+
+.add-input-field:focus-visible,
+.input-field:focus-visible {
+  outline: none;
+}
+
+.about-links {
+  width: 50%;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.about-links li {
+  padding: 0;
+}
+
+.about__content {
+  padding: 2rem 40px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about__list {
+  list-style: none;
+  flex: 2;
+  margin-right: 15px;
+}
+
+.about__list a {
+  color: #9f9f9f;
+  text-transform: capitalize;
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.about__list a:hover {
+  color: #000;
+}
+
+.main__content {
+  flex: 7;
+}
+
+.main__content h1 {
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.main__content p {
+  line-height: 25px;
+}
+
+.single-page {
+  margin-top: 50px;
+}
